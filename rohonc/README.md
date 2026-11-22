@@ -85,6 +85,20 @@ Old Hungarian fit the shapes best, so every sign was swapped for its nearest-loo
 
 The shape-matched version is less Hungarian-like than 76% of random shuffles. Signs that look like Old Hungarian letters do not carry those letters' sounds. Hungarian reference patterns come from the 30,000 commonest Hungarian words in the [wordfreq](https://github.com/rspeer/wordfreq) package.
 
+## Follow-up: copying a real text, or making it up?
+
+The same test used on the Voynich. A scribe copying a real text he couldn't read keeps the original's word order, so neighboring words should resemble each other less than chance; real Latin's near-copies run 0.45–0.88×. A scribe making text up by echoing his recent words pushes them above chance.
+
+Using the machine-cut signs, grouped into words at the scribe's gaps, across 9 settings (3 sign-sorting resolutions × 3 word-gap thresholds):
+
+| Measure | Result |
+| --- | --- |
+| Next word differs by one sign | above chance in 9 of 9 settings (1.05–1.16×), significant in 6 |
+| Next word identical | 0.57–1.22×, not significant in any setting (sign codes too noisy) |
+| Word in the line below differs by one sign | 0.93–1.00×, no excess |
+
+**Lean: closer to a scribe making it up than to one copying a real language.** It never falls below chance, as copied real text should. Weaker than the Voynich result: there is no human transcription with page coordinates to check against the ink, and neighboring words written with the same pen load could look alike without being the same word. This sits in tension with Király and Tokai's reading of the codex as a meaningful, possibly formulaic, Christian text.
+
 ## Limits
 
 - Modern font letters are being compared with 16th-century handwriting.
