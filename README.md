@@ -28,7 +28,7 @@ How to read it: **below 1** means grammar is keeping repeats apart; **about 1** 
 | **Rongorongo** | Easter Island, before the 1860s | Neither language-like nor copying-like. Sits at chance, unlike every language tested. | [rongorongo/](rongorongo/README.md) |
 | **Linear A** | Minoan Crete, about 1800–1450 BC | Behaves like a language, just like its deciphered cousin Linear B. | [linear-a/](linear-a/README.md) |
 
-Comparison texts are described in [controls/](controls/README.md) (languages, ciphers, known nonsense) and [conlangs-and-oddities/](conlangs-and-oddities/README.md) (Klingon, Esperanto, Lojban, Toki Pona, random filler, birdsong; Elvish and octopus still wanted).
+Comparison texts are described in [controls/](controls/README.md) (languages, ciphers, known nonsense) and [conlangs-and-oddities/](conlangs-and-oddities/README.md) (Klingon, Esperanto, Lojban, Toki Pona, random filler, birdsong; Elvish and crows still wanted).
 
 ## How this was made
 

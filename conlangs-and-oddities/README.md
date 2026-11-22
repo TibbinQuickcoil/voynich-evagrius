@@ -25,8 +25,7 @@ All are significantly different from chance except Lorem ipsum, which isn't (p â
 ## Not on the meter
 
 - **Elvish (Quenya, Sindarin):** no open running-text corpus could be found, and Tolkien's own texts are short and still under copyright.
-- **Octopus:** octopuses signal with changing skin color, pattern and texture, not sequences of discrete units that anyone has transcribed. If a corpus ever exists, it goes here.
-- **Whale and dolphin song:** no open sequence data turned up.
+- **Crows:** corvids make real sequences of discrete calls, and a 2024 study in *Science* showed carrion crows can plan how many calls to make. The one open dataset is from the paper "Unsupervised Discovery and Analysis of the Vocal Repertoires and Patterns of Select Corvid Species" ([Zenodo 18381906](https://doi.org/10.5281/zenodo.18381906)), about 3 GB of field audio. Turning that into call sequences means cutting noisy recordings into calls and sorting them by sound, so a result would carry wide error bars. Parked until it is worth the effort.
 
 ## Sources
 

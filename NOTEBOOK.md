@@ -77,7 +77,7 @@ Clint asked to keep going: add rongorongo and turn the repository into an archiv
 - Homophonic and nomenclator ciphers haven't been tested against the repeat signature.
 - A scribe model that copies while keeping a large vocabulary.
 - The full rongorongo corpus (only tablets A–F are in the open XML corpus used here).
-- Elvish, whale song and, someday, octopus, if open corpora turn up.
+- Elvish, if an open corpus turns up, and crows (open field audio exists on Zenodo, but turning 3 GB of recordings into call sequences is a large, noisy job).
 - The Copiale Cipher, if a transcription can be found, as a real-world cipher control.
 - The Rohonc repeat test on Király and Tokai's human transcription, whose site permits analysis but wasn't reachable from the workspace.
 - A note to the *Strata* author, whose work the ink check most directly extends.
