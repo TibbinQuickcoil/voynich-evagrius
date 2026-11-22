@@ -1,6 +1,6 @@
 # The Voynich Manuscript repeats itself like nonsense, not like a language
 
-Clint Foster · November 2026 · contact: EMAIL_HERE
+Clint Foster · November 2026 · contact: emmertfoster [at] yahoo [dot] com
 
 **What we asked:** Is the Voynich Manuscript's text written in a real language (maybe in code), or was it made up by a scribe copying and changing his own words as he went?
 
