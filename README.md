@@ -33,4 +33,5 @@ This analysis was done in one evening as a conversation between Clint Foster and
 - `data/voynich_recipes_virgin_K80.tsv`: a machine transcription of 20 recipe pages (f103r–f116r, without f111r/v) built from the scans with no human reading, in an invented 80-symbol alphabet. Columns: page, line, word, symbols.
 - `data/syllabary_K80.png`: eight real examples of each invented symbol, cut from the scans.
 - `figures/`: the chart above.
+- `rohonc/`: a follow-up asking whether the Rohonc Codex's script looks like Coptic, using the same sign-cutting method. Short answer: not especially.
 - `code/`: the analysis scripts as run. File paths point to the original working folders and need adjusting; the input data comes from the sources listed in DETAILS.md and is not redistributed here.
