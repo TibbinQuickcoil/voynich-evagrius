@@ -70,6 +70,21 @@ Similarity runs from 0 (nothing alike) to 1 (identical). Single straight strokes
 | R024 | 726 | Ⲏ (U+2C8E) | 0.31 | 𐤕 (Phoenician) | 0.53 |
 | R025 | 709 | Ⲓ (U+2C92) | 0.52 | 𐤋 (Phoenician) | 0.65 |
 
+## Follow-up: the whole codex in Old Hungarian letters
+
+Old Hungarian fit the shapes best, so every sign was swapped for its nearest-looking Old Hungarian letter and the codex was written out in reading order, right to left, page by page: [`rohonc_old_hungarian.txt`](rohonc_old_hungarian.txt), 4,344 lines and about 69,000 signs. Each line also gives the sounds those letters stand for. An independent 2014 transcription counted about 4,250 lines, so the line-finding holds up.
+
+**This is a look-alike substitution, not a reading.** The test is whether the sounds come out shaped like Hungarian. They don't:
+
+| Text, scored against Hungarian letter patterns | Bits per sound (lower = more Hungarian-like) |
+| --- | --- |
+| Real Hungarian words | 3.91 |
+| Rohonc, shape-matched to Old Hungarian | 8.56 |
+| Same letters shuffled randomly among the signs (300 tries) | 8.41 on average |
+| Completely random letters (300 tries) | 8.53 on average |
+
+The shape-matched version is less Hungarian-like than 76% of random shuffles. Signs that look like Old Hungarian letters do not carry those letters' sounds. Hungarian reference patterns come from the 30,000 commonest Hungarian words in the [wordfreq](https://github.com/rspeer/wordfreq) package.
+
 ## Limits
 
 - Modern font letters are being compared with 16th-century handwriting.
