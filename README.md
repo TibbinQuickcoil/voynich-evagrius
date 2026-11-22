@@ -10,7 +10,14 @@ Real languages almost never put the same word twice in a row. Grammar prevents i
 
 ![Same word twice in a row, observed versus chance, for languages, ciphers, nonsense and undeciphered texts](archive_chart.png)
 
-Every real language tested sits far below chance, including Māori, a Polynesian language full of doubled syllables. So do both kinds of classic cipher. The Voynich sits above chance, next to a book known to be meaningless. Linear A, the undeciphered script of Minoan Crete, sits with the languages.
+How to read it: **below 1** means grammar is keeping repeats apart; **about 1** means words come at random; **above 1** means something repetitive is producing the text.
+
+- Every real language sits far below chance, including Māori, a Polynesian language full of doubled syllables.
+- So does every constructed language tested: Esperanto, Lojban, Klingon and Toki Pona. The meter measures grammar, not whether a language is natural.
+- Both kinds of classic cipher sit below chance as well.
+- Randomly drawn words (Lorem ipsum) land almost exactly at chance, which calibrates the meter.
+- The Voynich sits above chance, next to a book known to be meaningless, and below birdsong, the most repetitive thing measured.
+- Linear A, the undeciphered script of Minoan Crete, sits with the languages.
 
 ## The texts
 
@@ -21,7 +28,7 @@ Every real language tested sits far below chance, including Māori, a Polynesian
 | **Rongorongo** | Easter Island, before the 1860s | Neither language-like nor copying-like. Sits at chance, unlike every language tested. | [rongorongo/](rongorongo/README.md) |
 | **Linear A** | Minoan Crete, about 1800–1450 BC | Behaves like a language, just like its deciphered cousin Linear B. | [linear-a/](linear-a/README.md) |
 
-Comparison texts (languages, ciphers, known nonsense) are described in [controls/](controls/README.md).
+Comparison texts are described in [controls/](controls/README.md) (languages, ciphers, known nonsense) and [conlangs-and-oddities/](conlangs-and-oddities/README.md) (Klingon, Esperanto, Lojban, Toki Pona, random filler, birdsong; Elvish and octopus still wanted).
 
 ## How this was made
 

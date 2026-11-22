@@ -69,12 +69,15 @@ Clint asked to keep going: add rongorongo and turn the repository into an archiv
 - **Rongorongo** sits at chance: it neither avoids repeats like every language tested, Māori syllables included, nor seeks them like the Voynich.
 - The Voynich and Rohonc work moved into their own folders, and the front page became an index with one master chart.
 
+- **Constructed languages and oddities.** Clint asked whether invented languages like Klingon and Elvish belonged on the meter, and for something truly weird ("put octopus on the meter"). Klingon, Esperanto, Lojban and Toki Pona all behave like languages. Random filler words land at chance. Bengalese finch song lands far above, the most repetitive thing measured. No open corpus was found for Elvish, and no octopus signals have ever been transcribed as sequences.
+
 ## Open threads
 
 - Herbal and other Voynich sections need a segmenter that can separate text from drawings.
 - Homophonic and nomenclator ciphers haven't been tested against the repeat signature.
 - A scribe model that copies while keeping a large vocabulary.
 - The full rongorongo corpus (only tablets A–F are in the open XML corpus used here).
+- Elvish, whale song and, someday, octopus, if open corpora turn up.
 - The Copiale Cipher, if a transcription can be found, as a real-world cipher control.
 - The Rohonc repeat test on Király and Tokai's human transcription, whose site permits analysis but wasn't reachable from the workspace.
 - A note to the *Strata* author, whose work the ink check most directly extends.
