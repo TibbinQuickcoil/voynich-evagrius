@@ -29,6 +29,7 @@ This analysis was done in one evening as a conversation between Clint Foster and
 
 ## What's in this repository
 
+- `NOTEBOOK.md`: the story of how this came together over two days, in order, dead ends included.
 - `DETAILS.md`: methods, all results tables, prior work, failures, sources.
 - `data/voynich_recipes_virgin_K80.tsv`: a machine transcription of 20 recipe pages (f103r–f116r, without f111r/v) built from the scans with no human reading, in an invented 80-symbol alphabet. Columns: page, line, word, symbols.
 - `data/syllabary_K80.png`: eight real examples of each invented symbol, cut from the scans.
