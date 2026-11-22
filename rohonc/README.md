@@ -1,5 +1,7 @@
 # Does the Rohonc Codex's script look like Coptic?
 
+*Part of [the Untranslatable Archive](../README.md).*
+
 Clint Foster · November 2026 · contact: emmertfoster [at] yahoo [dot] com
 
 **Short answer: not especially.** Measured purely by the shapes of the signs, the Rohonc Codex resembles Old Hungarian and Hebrew a little more than other scripts, Coptic sits in the middle, and Greek and Latin fit worst. The margins are thin, so treat this as a lean, not a finding.

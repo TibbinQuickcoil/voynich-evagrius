@@ -1,6 +1,6 @@
 # Details
 
-Numbers, methods and failures behind the summary in [README.md](README.md). Every test compares the real text with the same text shuffled, so results are ratios: observed ÷ chance.
+Numbers, methods and failures behind the summary in [README.md](../README.md). Every test compares the real text with the same text shuffled, so results are ratios: observed ÷ chance.
 
 ## Prior work
 

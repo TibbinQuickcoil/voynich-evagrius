@@ -1,38 +1,28 @@
-# The Voynich Manuscript repeats itself like nonsense, not like a language
+# The Untranslatable Archive
 
 Clint Foster · November 2026 · contact: emmertfoster [at] yahoo [dot] com
 
-**What we asked:** Is the Voynich Manuscript's text written in a real language (maybe in code), or was it made up by a scribe copying and changing his own words as he went?
+A collection of texts nobody can read, each put through the same simple test, with the work shown.
 
-**The key test:** Real languages almost never put the same word twice in a row. Grammar prevents it. You don't write "the the." So in real text, back-to-back repeats are much rarer than they'd be if the words were shuffled randomly. We checked this in Latin, English, Italian, German and French, and all five avoid repeats. The Voynich does the opposite: it repeats words back-to-back *more* often than random shuffling would.
+## The test
 
-![How often each text puts the same word twice in a row, compared with random shuffling](figures/next_word_repeat.png)
+Real languages almost never put the same word twice in a row. Grammar prevents it: nobody writes "the the." So in real text, back-to-back repeats are much rarer than they would be if the words were shuffled at random. A scribe who makes text up by copying his own recent words does the opposite and repeats more than chance.
 
-Each bar shows how often a text puts the same word twice in a row, compared with random shuffling (the dashed line). Below the line means the text avoids repeats; above means it seeks them out.
+![Same word twice in a row, observed versus chance, for languages, ciphers, nonsense and undeciphered texts](archive_chart.png)
 
-## What we found
+Every real language tested sits far below chance, including Māori, a Polynesian language full of doubled syllables. So do both kinds of classic cipher. The Voynich sits above chance, next to a book known to be meaningless. Linear A, the undeciphered script of Minoan Crete, sits with the languages.
 
-- **It's in the ink, not the typing.** Most Voynich research uses typed-up versions of the text. We matched about 4,700 typed words to photos of the actual pages and confirmed the repeats are really there in the scribe's handwriting.
-- **The best "it's a code" idea fails this test.** A published cipher that turns Latin into Voynich-looking text still avoids repeats, the way Latin does. The Voynich doesn't.
-- **Known nonsense behaves the same way.** The *Codex Seraphinianus*, a 1981 book whose author says its writing means nothing, repeats words just like the Voynich.
-- **The scribe was copying himself.** Words tend to resemble the words just before them on the same line and in the few lines above. That's what you'd expect if he made up each word by copying a recent one and changing a letter or two.
+## The texts
 
-## What it means
+| Text | Where from | Verdict so far | Page |
+| --- | --- | --- | --- |
+| **Voynich Manuscript** | Italy or the Alps, early 1400s | Behaves like nonsense from a scribe copying himself. Confirmed against the ink. | [voynich/](voynich/README.md) |
+| **Rohonc Codex** | Hungary, 1500s | Shapes look slightly like Old Hungarian but don't carry its sounds. Leans toward a composing scribe; weaker evidence. | [rohonc/](rohonc/README.md) |
+| **Rongorongo** | Easter Island, before the 1860s | Neither language-like nor copying-like. Sits at chance, unlike every language tested. | [rongorongo/](rongorongo/README.md) |
+| **Linear A** | Minoan Crete, about 1800–1450 BC | Behaves like a language, just like its deciphered cousin Linear B. | [linear-a/](linear-a/README.md) |
 
-The simplest explanation is that the Voynich text was made up word by word by a scribe copying his own recent writing, not written in a language. This doesn't prove the book means nothing, but it rules out plain language and the leading code theory. Earlier researchers already found the repetition. What's new here is the check against the ink itself, plus the two comparison books.
-
-The numbers, methods, sources and everything that went wrong are in [DETAILS.md](DETAILS.md).
+Comparison texts (languages, ciphers, known nonsense) are described in [controls/](controls/README.md).
 
 ## How this was made
 
-This analysis was done in one evening as a conversation between Clint Foster and Claude, an AI model made by Anthropic. Claude wrote and ran the code, and wrote the text; Clint directed the questions and pushed back on weak results. Every number comes from code in this repository run on public data. The dead ends and corrected mistakes are listed in DETAILS.md rather than hidden. Check the work before trusting it.
-
-## What's in this repository
-
-- `NOTEBOOK.md`: the story of how this came together over two days, in order, dead ends included.
-- `DETAILS.md`: methods, all results tables, prior work, failures, sources.
-- `data/voynich_recipes_virgin_K80.tsv`: a machine transcription of 20 recipe pages (f103r–f116r, without f111r/v) built from the scans with no human reading, in an invented 80-symbol alphabet. Columns: page, line, word, symbols.
-- `data/syllabary_K80.png`: eight real examples of each invented symbol, cut from the scans.
-- `figures/`: the chart above.
-- `rohonc/`: a follow-up asking whether the Rohonc Codex's script looks like Coptic, using the same sign-cutting method. Short answer: not especially.
-- `code/`: the analysis scripts as run. File paths point to the original working folders and need adjusting; the input data comes from the sources listed in DETAILS.md and is not redistributed here.
+By Clint Foster working with Claude, an AI model made by Anthropic. Claude wrote and ran the code and wrote the text; Clint asked the questions and pushed back on weak results. Every number comes from code in this repository run on public data, and the mistakes and dead ends are recorded rather than hidden. The full story is in [NOTEBOOK.md](NOTEBOOK.md). Check the work before trusting it.

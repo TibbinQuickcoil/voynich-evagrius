@@ -1,6 +1,6 @@
 # Lab notebook: Voynich and Rohonc, 21–22 November 2026
 
-A plain-language record of how this repository came to be, in the order it happened, dead ends included. Clint Foster asked the questions and steered; Claude (Anthropic's AI model) wrote and ran the code. Results are in [README.md](README.md), [DETAILS.md](DETAILS.md) and [rohonc/README.md](rohonc/README.md); this page is the story behind them.
+A plain-language record of how this repository came to be, in the order it happened, dead ends included. Clint Foster asked the questions and steered; Claude (Anthropic's AI model) wrote and ran the code. Results are in the [archive index](README.md) and each text's folder; this page is the story behind them.
 
 ## Saturday evening: where the name came from
 
@@ -60,10 +60,21 @@ The first write-up was too technical, and Clint said so, pointedly; it was rewri
 - **"Put it into Old Hungarian."** Every sign was swapped for its nearest-looking Old Hungarian letter. The result sounds nothing like Hungarian, no better than random letters. The signs borrow the look of Old Hungarian, not its sounds.
 - **"Same premise as the Voynich: an ignorant transcriber."** A scribe copying a real text he couldn't read would keep its grammar, so neighbouring words would look alike less than chance. The Rohonc's neighbouring words look alike more than chance in all nine settings tried, so it leans toward a scribe composing as he went. That's weaker than the Voynich result, because there is no human transcription to check the ink against.
 
+## Sunday afternoon: becoming an archive
+
+Clint asked to keep going: add rongorongo and turn the repository into an archive of untranslatable texts.
+
+- **New controls.** Linear B (deciphered Mycenaean Greek) and Māori (a Polynesian language, close kin to Rapa Nui) were added from public corpora on GitHub. No Copiale Cipher transcription could be found, so a homophonic cipher of Latin was built instead. Homophonic ciphers make repeats even rarer, and word-for-word code systems keep the original's pattern, so neither can produce the Voynich's above-chance repetition.
+- **Linear A** behaves like a language, just like Linear B.
+- **Rongorongo** sits at chance: it neither avoids repeats like every language tested, Māori syllables included, nor seeks them like the Voynich.
+- The Voynich and Rohonc work moved into their own folders, and the front page became an index with one master chart.
+
 ## Open threads
 
 - Herbal and other Voynich sections need a segmenter that can separate text from drawings.
 - Homophonic and nomenclator ciphers haven't been tested against the repeat signature.
 - A scribe model that copies while keeping a large vocabulary.
+- The full rongorongo corpus (only tablets A–F are in the open XML corpus used here).
+- The Copiale Cipher, if a transcription can be found, as a real-world cipher control.
 - The Rohonc repeat test on Király and Tokai's human transcription, whose site permits analysis but wasn't reachable from the workspace.
 - A note to the *Strata* author, whose work the ink check most directly extends.
